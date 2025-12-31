@@ -42,7 +42,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `delivery`.`tb_premissoes`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `delivery`.`tb_premissoes` (
+CREATE TABLE IF NOT EXISTS `delivery`.`tb_permissoes` (
   `id` INT NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   `status` VARCHAR(45) NOT NULL,
